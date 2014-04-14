@@ -14,6 +14,9 @@ if (!$books) {
 }
 
 $blade = new Blade($views, $cache);
+copy(__DIR__.'/assets/styles/master.css', __DIR__.'/dist/styles/master.css');
+copy(__DIR__.'/assets/scripts/app.js', __DIR__.'/dist/scripts/app.js');
+
 file_put_contents(__DIR__.'/dist/index.html', $blade->view()->make('books')->
     with('books', $books));
 echo "file dist/index.html was created";
