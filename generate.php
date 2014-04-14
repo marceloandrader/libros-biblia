@@ -14,5 +14,6 @@ if (!$books) {
 }
 
 $blade = new Blade($views, $cache);
-echo $blade->view()->make('books')->
-    with('books', $books);
+file_put_contents(__DIR__.'/dist/index.html', $blade->view()->make('books')->
+    with('books', $books));
+echo "file dist/index.html was created";
