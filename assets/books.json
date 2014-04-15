@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Génesis",
+    "abbr": "Gn",
+    "chapters": 10,
+    "verses": 10,
+    "mss": 1,
+    "number": 1,
+    "page_start": 1,
+    "page_end": 10,
+    "position_x": 1,
+    "position_y": 1,
+    "class" : "pentateuco"
+  },
+  {
+    "name": "Éxodo",
+    "abbr": "Éx",
+    "chapters": 10,
+    "verses": 10,
+    "mss": 1,
+    "number": 2,
+    "page_start": 1,
+    "page_end": 10,
+    "position_x": 2,
+    "position_y": 1,
+    "class" : "pentateuco"
+  },
+  {
+    "name": "Levítico",
+    "abbr": "Lv",
+    "chapters": 10,
+    "verses": 10,
+    "mss": 1,
+    "number": 3,
+    "page_start": 1,
+    "page_end": 10,
+    "position_x": 3,
+    "position_y": 1,
+    "class" : "pentateuco"
+  }
+
+]

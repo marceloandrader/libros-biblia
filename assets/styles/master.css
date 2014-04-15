@@ -1,2 +1,47 @@
-* {
+body {
+  width: 960px;
+}
+
+.book-table {
+  border-collapse: collapse;
+}
+
+.book-table tr td {
+  width: 120px;
+  height: 150px;
+  padding: 5px;
+}
+
+.book {
+  text-align: center;
+  padding: 10px;
+}
+.book .chapters {
+  float: left;
+}
+.book .verses {
+  float: left;
+}
+.book .no_mss {
+  float: right;
+}
+.book .abbr {
+  font-size: 36px;
+  font-weight: bolder;
+  display: block;
+  margin-top: 10px;
+}
+.book .name {
+  display: block;
+  margin-bottom: 5px;
+}
+.book .number {
+  float: left;
+}
+.book .pages {
+  float: right;
+}
+
+.book.pentateuco {
+  background-color: red;
 }
