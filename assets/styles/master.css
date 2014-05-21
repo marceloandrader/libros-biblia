@@ -1,20 +1,27 @@
 body {
-  width: 960px;
+  font-size: 16px;
 }
 
 .book-table {
   border-collapse: collapse;
+  empty-cells: hide;
 }
 
-.book-table tr td {
-  width: 120px;
-  height: 150px;
-  padding: 5px;
+.book-table tr td a{
+  text-decoration: none;
+}
+.book-table tr td a:hover{
+  text-decoration: underline;
 }
 
 .book {
+  color: white;
   text-align: center;
-  padding: 10px;
+  text-shadow: grey 1px 1px;
+  padding: 0.2em;
+  font-size: 0.7em;
+  width: 6em;
+  height: 8em;
 }
 .book .chapters {
   float: left;
@@ -26,14 +33,16 @@ body {
   float: right;
 }
 .book .abbr {
-  font-size: 36px;
   font-weight: bolder;
+  font-size: 1.5rem;
+  font-family: 'Ubuntu', sans-serif;
   display: block;
-  margin-top: 10px;
 }
 .book .name {
-  display: block;
-  margin-bottom: 5px;
+  display: inline-block;
+  font-size: 0.7rem;
+  width: 5em;
+  text-overflow: ellipsis ;
 }
 .book .number {
   float: left;
@@ -42,6 +51,51 @@ body {
   float: right;
 }
 
-.book.pentateuco {
-  background-color: red;
+.pentateuco {
+  background-color: #E43870;
+}
+.historia {
+  background-color: #F58571;
+}
+.sapiencial {
+  background-color: #EBEA75
+}
+.profetas-mayores {
+  background-color: #B4DBB6;
+}
+.profetas-menores {
+  background-color: #6DBEE6;
+}
+.evangelios {
+  background-color: #AA274F;
+}
+.cartas-paulinas {
+  background-color: #EEB328;
+}
+.cartas-generales {
+  background-color: #806D6A;
+}
+.apocaliptica {
+  background-color: #123B47;
+}
+
+.legend {
+  list-style-type: none;
+}
+
+.legend li {
+  width: 20em;
+  float: left;
+}
+
+.legend li span {
+  border-radius: 2px;
+  width: 10em;
+  display: inline-block;
+  margin: 0.5em;
+  color: white;  
+  text-shadow: grey 1px 1px;
+  font-size: 1.2em;
+  padding: 0.5em;
+  text-align: center;
 }

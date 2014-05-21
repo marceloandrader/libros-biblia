@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Libros de la Biblia</title>
+    <title>Libros de la Biblia :: Iglesia Alianza El Batán</title>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="styles/master.css">
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/mrmrs/pesticide/master/css/pesticide.min.css">
 </head>
 <body>
     @yield('content')
