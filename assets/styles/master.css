@@ -1,27 +1,26 @@
-body {
-  font-size: 16px;
+.book-table {
+  /* border-collapse: collapse; */
+  /* empty-cells: hide; */
+  /* margin: 0.5em; */
+
+  width:100%;
 }
 
-.book-table {
-  border-collapse: collapse;
-  empty-cells: hide;
+.book-table tr td{
+  border-left: 2px solid white;
+  border-bottom: 1px solid white;
 }
 
 .book-table tr td a{
   text-decoration: none;
-}
-.book-table tr td a:hover{
-  text-decoration: underline;
 }
 
 .book {
   color: white;
   text-align: center;
   text-shadow: grey 1px 1px;
-  padding: 0.2em;
+  padding: 0.6em;
   font-size: 0.7em;
-  width: 6em;
-  height: 8em;
 }
 .book .chapters {
   float: left;
@@ -39,9 +38,8 @@ body {
   display: block;
 }
 .book .name {
-  display: inline-block;
   font-size: 0.7rem;
-  width: 5em;
+  width: 3em;
   text-overflow: ellipsis ;
 }
 .book .number {
@@ -79,21 +77,12 @@ body {
   background-color: #123B47;
 }
 
-.legend {
-  list-style-type: none;
-}
-
-.legend li {
-  width: 20em;
-  float: left;
-}
-
-.legend li span {
+.legend span {
   border-radius: 2px;
-  width: 10em;
-  display: inline-block;
+  width: 15em;
+  display: block;
   margin: 0.5em;
-  color: white;  
+  color: white;
   text-shadow: grey 1px 1px;
   font-size: 1.2em;
   padding: 0.5em;
