@@ -1,3 +1,7 @@
+/* Some solarized theme */
+$body-bg:     #002b36;
+$text-color:  #839496;
+$link-color:  #93a1a1;
 @import "../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
 
 $book-fg-color: white !default;
@@ -20,8 +24,8 @@ $book-apocaliptica-bg-color: #123B47 !default;
 .book-table {
   width:100%;
   tr td {
-    border-left: 2px solid white;
-    border-bottom: 1px solid white;
+    border-left: 2px solid $body-bg;
+    border-bottom: 1px solid $body-bg;
     a {
       text-decoration: none;
     }
@@ -58,6 +62,11 @@ $book-apocaliptica-bg-color: #123B47 !default;
   .pages {
     float: right;
   }
+}
+
+.footer {
+  margin-top: 40px;
+  text-align: center;
 }
 
 .pentateuco {

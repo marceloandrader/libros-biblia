@@ -10,6 +10,11 @@
 <body>
     <div class="container">
         @yield('content')
+        <div class="footer">
+            <div class="row">
+                <div class="col-md-12">Desarrollado por <a href="http://about.me/marceloandrade" target="_blank">Marcelo Andrade</a></div>
+            </div>
+        </div>
     </div>
     <script type="text/javascript" src="scripts/app.js"></script>
 </body>

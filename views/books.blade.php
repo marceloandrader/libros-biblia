@@ -26,7 +26,8 @@
                             </span>
                             <br/>
                             <span class="number">{{$book['number']}}</span>
-                            <span class="pages">{{$book['page_start']}}-{{$book['page_end']}}</span>
+                            <span class="pages">&nbsp;</span>
+                            <?php /* {{$book['page_start']}}-{{$book['page_end']}} */ ?>
                             <br/>
                         </div>
                         </a>
@@ -46,7 +47,7 @@
 <div class="row">
     <div class="col-md-2">
         <div class="row">
-            <div class="book pentateuco col-md-4 col-md-offset-2">
+            <div class="book pentateuco" style="width: 136px; height: 124px; margin-left: 27px;">
                 <span class="no_mss">Mss</span>
                 <span class="chapters"># of Cap.</span><br>
                 <span class="verses"># of Vers.</span>
@@ -59,7 +60,7 @@
                 </span>
                 <br>
                 <span class="number">No. Libro</span>
-                <span class="pages">Pag</span>
+                <span class="pages"></span>
                 <br>
             </div>
         </div>
