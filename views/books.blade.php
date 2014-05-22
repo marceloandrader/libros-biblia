@@ -67,28 +67,46 @@
     <div class="col-md-10">
         <div class="row legend">
             <div class="col-md-4">
-                <span class="pentateuco">
-                    Pentateuco</span>
-                <span class="historia">
-                    Historia</span>
-                <span class="sapiencial">
-                    Literatura Sapiencial</span>
+                <a>
+                    <span class="pentateuco">
+                        Pentateuco</span>
+                </a>
+                <a>
+                    <span class="historia">
+                        Historia</span>
+                </a>
+                <a>
+                    <span class="sapiencial">
+                        Literatura Sapiencial</span>
+                </a>
             </div>
             <div class="col-md-4">
-                <span class="profetas-mayores">
-                    Profetas Mayores</span>
-                <span class="profetas-menores">
-                    Profetas Menores</span>
-                <span class="evangelios">
-                    Evangelios</span>
+                <a>
+                    <span class="profetas-mayores">
+                        Profetas Mayores</span>
+                </a>
+                <a>
+                    <span class="profetas-menores">
+                        Profetas Menores</span>
+                </a>
+                <a>
+                    <span class="evangelios">
+                        Evangelios</span>
+                </a>
             </div>
             <div class="col-md-4">
-                <span class="cartas-paulinas">
-                    Cartas Paulinas</span>
-                <span class="cartas-generales">
-                    Cartas Generales</span>
-                <span class="apocaliptica">
-                    Apocalíptica</span>
+                <a>
+                    <span class="cartas-paulinas">
+                        Cartas Paulinas</span>
+                </a>
+                <a>
+                    <span class="cartas-generales">
+                        Cartas Generales</span>
+                </a>
+                <a>
+                    <span class="apocaliptica">
+                        Apocalíptica</span>
+                </a>
             </div>
         </div>
    </div>

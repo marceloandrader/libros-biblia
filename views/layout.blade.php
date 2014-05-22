@@ -5,8 +5,6 @@
     <title>Libros de la Biblia :: Iglesia Alianza El Batán</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='http://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="styles/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles/bootstrap/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="styles/master.css">
 </head>
 <body>

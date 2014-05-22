@@ -1,0 +1,112 @@
+@import "../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
+
+$book-fg-color: white !default;
+$book-pentateuco-bg-color: #E43870 !default;
+$book-historia-bg-color: #F58571 !default;
+$book-sapiencial-bg-color: #EBEA75 !default;
+$book-profetas-mayores-bg-color: #B4DBB6 !default;
+$book-profetas-menores-bg-color: #6DBEE6 !default;
+$book-evangelios-bg-color: #AA274F !default;
+$book-cartas-paulinas-bg-color: #EEB328 !default;
+$book-cartas-generales-bg-color: #806D6A !default;
+$book-apocaliptica-bg-color: #123B47 !default;
+
+@mixin book-card {
+  border: none;
+  height: 115px;
+  width: 73px;
+}
+
+.book-table {
+  width:100%;
+  tr td {
+    border-left: 2px solid white;
+    border-bottom: 1px solid white;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.book {
+  @extend .btn;
+  @include book-card;
+  text-align: center;
+  .chapters {
+    float: left;
+  }
+  .verses {
+    float: left;
+  }
+  .no_mss {
+    float: right;
+  }
+  .abbr {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    display: block;
+  }
+  .name {
+    font-size: 0.7rem;
+    width: 3em;
+    text-overflow: ellipsis ;
+  }
+  .number {
+    float: left;
+  }
+  .pages {
+    float: right;
+  }
+}
+
+.pentateuco {
+  @include button-variant($book-fg-color, $book-pentateuco-bg-color, darken($book-pentateuco-bg-color,40%));
+  background-image: linear-gradient( $book-pentateuco-bg-color, darken($book-pentateuco-bg-color, 30%) ) !important;
+}
+.historia {
+  @include button-variant($book-fg-color, $book-historia-bg-color, $book-historia-bg-color);
+  background-image: linear-gradient( $book-historia-bg-color, darken($book-historia-bg-color, 30%) );
+}
+.sapiencial {
+  @include button-variant($book-fg-color, $book-sapiencial-bg-color, darken($book-sapiencial-bg-color,10%));
+  background-image: linear-gradient( $book-sapiencial-bg-color, darken($book-sapiencial-bg-color, 30%) ) !important;
+}
+.profetas-mayores {
+  @include button-variant($book-fg-color, $book-profetas-mayores-bg-color, darken($book-profetas-mayores-bg-color,10%));
+  background-image: linear-gradient( $book-profetas-mayores-bg-color, darken($book-profetas-mayores-bg-color, 30%) ) !important;
+}
+.profetas-menores {
+  @include button-variant($book-fg-color, $book-profetas-menores-bg-color, darken($book-profetas-menores-bg-color,10%));
+  background-image: linear-gradient( $book-profetas-menores-bg-color, darken($book-profetas-menores-bg-color, 30%) ) !important;
+}
+.evangelios {
+  @include button-variant($book-fg-color, $book-evangelios-bg-color, darken($book-evangelios-bg-color,10%));
+  background-image: linear-gradient( $book-evangelios-bg-color, darken($book-evangelios-bg-color, 30%) ) !important;
+}
+.cartas-paulinas {
+  @include button-variant($book-fg-color, $book-cartas-paulinas-bg-color, darken($book-cartas-paulinas-bg-color,10%));
+  background-image: linear-gradient( $book-cartas-paulinas-bg-color, darken($book-cartas-paulinas-bg-color, 30%) ) !important;
+}
+.cartas-generales {
+  @include button-variant($book-fg-color, $book-cartas-generales-bg-color, darken($book-cartas-generales-bg-color,10%));
+  background-image: linear-gradient( $book-cartas-generales-bg-color, darken($book-cartas-generales-bg-color, 30%) ) !important;
+}
+.apocaliptica {
+  @include button-variant($book-fg-color, $book-apocaliptica-bg-color, darken($book-apocaliptica-bg-color,10%));
+  background-image: linear-gradient( $book-apocaliptica-bg-color, darken($book-apocaliptica-bg-color, 30%) ) !important;
+}
+
+.legend {
+  a {
+    text-decoration: none;
+    span {
+      padding: 0.6em;
+      display: block;
+      width: 80%;
+      margin: 0.2em;
+      text-align: center;
+      @extend .btn;
+    }
+  }
+}
