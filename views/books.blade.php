@@ -13,7 +13,7 @@
                         @foreach ( $books as $book)
                         @if ($book['position_x'] == $j && $book['position_y'] == $i)
                         <a href="javascript:void;">
-                        <div class="book {{$book['class']}}">
+                            <div class="book {{$book['class']}}" data-bind='book: {{json_encode($book)}}'>
                             <span class="no_mss">{{$book['mss']}}</span>
                             <span class="chapters">{{$book['chapters']}}</span><br/>
                             <span class="verses">{{$book['verses']}}</span>

@@ -17,8 +17,8 @@ $book-apocaliptica-bg-color: #123B47 !default;
 
 @mixin book-card {
   border: none;
-  height: 115px;
-  width: 73px;
+  height: 105px;
+  width: 70px;
 }
 
 .book-table {
@@ -36,6 +36,7 @@ $book-apocaliptica-bg-color: #123B47 !default;
   @extend .btn;
   @include book-card;
   text-align: center;
+  font-size: 0.9rem;
   .chapters {
     float: left;
   }
@@ -47,13 +48,13 @@ $book-apocaliptica-bg-color: #123B47 !default;
   }
   .abbr {
     font-weight: bolder;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-family: 'Ubuntu', sans-serif;
     display: block;
   }
   .name {
-    font-size: 0.7rem;
-    width: 3em;
+    font-size: 1.0rem;
+    overflow-y: hidden;
     text-overflow: ellipsis ;
   }
   .number {
@@ -115,6 +116,7 @@ $book-apocaliptica-bg-color: #123B47 !default;
       width: 80%;
       margin: 0.2em;
       text-align: center;
+      font-family: 'Ubuntu', sans-serif;
       @extend .btn;
     }
   }

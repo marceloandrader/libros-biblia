@@ -2,7 +2,7 @@
   {
     "number": 1,
     "name": "Genesis",
-    "abbr": "Gene",
+    "abbr": "Ge",
     "chapters": 50,
     "verses": 1533,
     "mss": 1,
@@ -15,7 +15,7 @@
   {
     "number": 2,
     "name": "Exodus",
-    "abbr": "Exod",
+    "abbr": "Ex",
     "chapters": 40,
     "verses": 1213,
     "mss": 1,
@@ -28,7 +28,7 @@
   {
     "number": 3,
     "name": "Leviticus",
-    "abbr": "Levi",
+    "abbr": "Le",
     "chapters": 27,
     "verses": 859,
     "mss": 1,
@@ -41,7 +41,7 @@
   {
     "number": 4,
     "name": "Numbers",
-    "abbr": "Numb",
+    "abbr": "Nu",
     "chapters": 36,
     "verses": 1288,
     "mss": 1,
@@ -54,7 +54,7 @@
   {
     "number": 5,
     "name": "Deuteronomy",
-    "abbr": "Deut",
+    "abbr": "Dt",
     "chapters": 34,
     "verses": 959,
     "mss": 1,
@@ -67,7 +67,7 @@
   {
     "number": 6,
     "name": "Joshua",
-    "abbr": "Josh",
+    "abbr": "Js",
     "chapters": 24,
     "verses": 658,
     "mss": 1,
@@ -80,7 +80,7 @@
   {
     "number": 7,
     "name": "Judges",
-    "abbr": "Judg",
+    "abbr": "Jue",
     "chapters": 21,
     "verses": 618,
     "mss": 1,
@@ -93,7 +93,7 @@
   {
     "number": 8,
     "name": "Ruth",
-    "abbr": "Ruth",
+    "abbr": "Ru",
     "chapters": 4,
     "verses": 85,
     "mss": 1,
@@ -158,7 +158,7 @@
   {
     "number": 13,
     "name": "1 Chronicles",
-    "abbr": "1 Ch",
+    "abbr": "1 Cr",
     "chapters": 29,
     "verses": 942,
     "mss": 1,
@@ -171,7 +171,7 @@
   {
     "number": 14,
     "name": "2 Chronicles",
-    "abbr": "2 Ch",
+    "abbr": "2 Cr",
     "chapters": 36,
     "verses": 822,
     "mss": 1,
@@ -184,7 +184,7 @@
   {
     "number": 15,
     "name": "Ezra",
-    "abbr": "Ezra",
+    "abbr": "Ez",
     "chapters": 10,
     "verses": 280,
     "mss": 1,
@@ -197,7 +197,7 @@
   {
     "number": 16,
     "name": "Nehemiah",
-    "abbr": "Nehe",
+    "abbr": "Ne",
     "chapters": 13,
     "verses": 406,
     "mss": 1,
@@ -210,7 +210,7 @@
   {
     "number": 17,
     "name": "Esther",
-    "abbr": "Esth",
+    "abbr": "Es",
     "chapters": 10,
     "verses": 167,
     "mss": 1,
@@ -223,7 +223,7 @@
   {
     "number": 18,
     "name": "Job",
-    "abbr": "Job",
+    "abbr": "Jb",
     "chapters": 42,
     "verses": 1070,
     "mss": 1,
@@ -236,7 +236,7 @@
   {
     "number": 19,
     "name": "Psalms",
-    "abbr": "Psal",
+    "abbr": "Sa",
     "chapters": 150,
     "verses": 2461,
     "mss": 1,
@@ -249,7 +249,7 @@
   {
     "number": 20,
     "name": "Proverbs",
-    "abbr": "Prov",
+    "abbr": "Pr",
     "chapters": 31,
     "verses": 915,
     "mss": 1,
@@ -262,7 +262,7 @@
   {
     "number": 21,
     "name": "Ecclesiastes",
-    "abbr": "Eccl",
+    "abbr": "Ec",
     "chapters": 12,
     "verses": 222,
     "mss": 1,
@@ -275,7 +275,7 @@
   {
     "number": 22,
     "name": "Song of Solomon",
-    "abbr": "Song",
+    "abbr": "Cn",
     "chapters": 8,
     "verses": 117,
     "mss": 1,
@@ -288,7 +288,7 @@
   {
     "number": 23,
     "name": "Isaiah",
-    "abbr": "Isai",
+    "abbr": "Is",
     "chapters": 66,
     "verses": 1292,
     "mss": 1,
@@ -301,7 +301,7 @@
   {
     "number": 24,
     "name": "Jeremiah",
-    "abbr": "Jere",
+    "abbr": "Je",
     "chapters": 52,
     "verses": 1364,
     "mss": 1,
@@ -314,7 +314,7 @@
   {
     "number": 25,
     "name": "Lamentations",
-    "abbr": "Lame",
+    "abbr": "La",
     "chapters": 5,
     "verses": 154,
     "mss": 1,
@@ -327,7 +327,7 @@
   {
     "number": 26,
     "name": "Ezekiel",
-    "abbr": "Ezek",
+    "abbr": "Ez",
     "chapters": 48,
     "verses": 1273,
     "mss": 1,
@@ -340,7 +340,7 @@
   {
     "number": 27,
     "name": "Daniel",
-    "abbr": "Dani",
+    "abbr": "Da",
     "chapters": 12,
     "verses": 357,
     "mss": 1,
@@ -353,7 +353,7 @@
   {
     "number": 28,
     "name": "Hosea",
-    "abbr": "Hose",
+    "abbr": "Ho",
     "chapters": 14,
     "verses": 197,
     "mss": 1,
@@ -366,7 +366,7 @@
   {
     "number": 29,
     "name": "Joel",
-    "abbr": "Joel",
+    "abbr": "Jl",
     "chapters": 3,
     "verses": 73,
     "mss": 1,
@@ -379,7 +379,7 @@
   {
     "number": 30,
     "name": "Amos",
-    "abbr": "Amos",
+    "abbr": "Am",
     "chapters": 9,
     "verses": 146,
     "mss": 1,
@@ -392,7 +392,7 @@
   {
     "number": 31,
     "name": "Obadiah",
-    "abbr": "Obad",
+    "abbr": "Ob",
     "chapters": 1,
     "verses": 21,
     "mss": 1,
@@ -405,7 +405,7 @@
   {
     "number": 32,
     "name": "Jonah",
-    "abbr": "Jona",
+    "abbr": "Jn",
     "chapters": 4,
     "verses": 48,
     "mss": 1,
@@ -418,7 +418,7 @@
   {
     "number": 33,
     "name": "Micah",
-    "abbr": "Mica",
+    "abbr": "Mi",
     "chapters": 7,
     "verses": 105,
     "mss": 1,
@@ -431,7 +431,7 @@
   {
     "number": 34,
     "name": "Nahum",
-    "abbr": "Nahu",
+    "abbr": "Na",
     "chapters": 3,
     "verses": 47,
     "mss": 1,
@@ -444,7 +444,7 @@
   {
     "number": 35,
     "name": "Habakkuk",
-    "abbr": "Haba",
+    "abbr": "Ha",
     "chapters": 3,
     "verses": 56,
     "mss": 1,
@@ -457,7 +457,7 @@
   {
     "number": 36,
     "name": "Zephaniah",
-    "abbr": "Zeph",
+    "abbr": "Ze",
     "chapters": 3,
     "verses": 53,
     "mss": 1,
@@ -470,7 +470,7 @@
   {
     "number": 37,
     "name": "Haggai",
-    "abbr": "Hagg",
+    "abbr": "Ha",
     "chapters": 2,
     "verses": 38,
     "mss": 1,
@@ -483,7 +483,7 @@
   {
     "number": 38,
     "name": "Zechariah",
-    "abbr": "Zech",
+    "abbr": "Ze",
     "chapters": 14,
     "verses": 211,
     "mss": 1,
@@ -496,7 +496,7 @@
   {
     "number": 39,
     "name": "Malachi",
-    "abbr": "Mala",
+    "abbr": "Ml",
     "chapters": 4,
     "verses": 55,
     "mss": 1,
@@ -509,7 +509,7 @@
   {
     "number": 40,
     "name": "Matthew",
-    "abbr": "Matt",
+    "abbr": "Ma",
     "chapters": 28,
     "verses": 1071,
     "mss": 1,
@@ -522,7 +522,7 @@
   {
     "number": 41,
     "name": "Mark",
-    "abbr": "Mark",
+    "abbr": "Mar",
     "chapters": 16,
     "verses": 678,
     "mss": 1,
@@ -535,7 +535,7 @@
   {
     "number": 42,
     "name": "Luke",
-    "abbr": "Luke",
+    "abbr": "Lu",
     "chapters": 24,
     "verses": 1151,
     "mss": 1,
@@ -548,7 +548,7 @@
   {
     "number": 43,
     "name": "John",
-    "abbr": "John",
+    "abbr": "Jn",
     "chapters": 21,
     "verses": 879,
     "mss": 1,
@@ -561,7 +561,7 @@
   {
     "number": 44,
     "name": "Acts",
-    "abbr": "Acts",
+    "abbr": "Ac",
     "chapters": 28,
     "verses": 1007,
     "mss": 1,
@@ -574,7 +574,7 @@
   {
     "number": 45,
     "name": "Romans",
-    "abbr": "Roma",
+    "abbr": "Ro",
     "chapters": 16,
     "verses": 433,
     "mss": 1,
@@ -613,7 +613,7 @@
   {
     "number": 48,
     "name": "Galatians",
-    "abbr": "Gala",
+    "abbr": "Ga",
     "chapters": 6,
     "verses": 149,
     "mss": 1,
@@ -626,7 +626,7 @@
   {
     "number": 49,
     "name": "Ephesians",
-    "abbr": "Ephe",
+    "abbr": "Ef",
     "chapters": 6,
     "verses": 155,
     "mss": 1,
@@ -639,7 +639,7 @@
   {
     "number": 50,
     "name": "Philippians",
-    "abbr": "Phil",
+    "abbr": "Fi",
     "chapters": 4,
     "verses": 104,
     "mss": 1,
@@ -652,7 +652,7 @@
   {
     "number": 51,
     "name": "Colossians",
-    "abbr": "Colo",
+    "abbr": "Co",
     "chapters": 4,
     "verses": 95,
     "mss": 1,
@@ -665,7 +665,7 @@
   {
     "number": 52,
     "name": "1 Thessalonians",
-    "abbr": "1 Th",
+    "abbr": "1 Te",
     "chapters": 5,
     "verses": 89,
     "mss": 1,
@@ -678,7 +678,7 @@
   {
     "number": 53,
     "name": "2 Thessalonians",
-    "abbr": "2 Th",
+    "abbr": "2 Te",
     "chapters": 3,
     "verses": 47,
     "mss": 1,
@@ -717,7 +717,7 @@
   {
     "number": 56,
     "name": "Titus",
-    "abbr": "Titu",
+    "abbr": "Tt",
     "chapters": 3,
     "verses": 46,
     "mss": 1,
@@ -730,7 +730,7 @@
   {
     "number": 57,
     "name": "Philemon",
-    "abbr": "Phil",
+    "abbr": "Ph",
     "chapters": 1,
     "verses": 25,
     "mss": 1,
@@ -743,7 +743,7 @@
   {
     "number": 58,
     "name": "Hebrews",
-    "abbr": "Hebr",
+    "abbr": "He",
     "chapters": 13,
     "verses": 303,
     "mss": 1,
@@ -756,7 +756,7 @@
   {
     "number": 59,
     "name": "James",
-    "abbr": "Jame",
+    "abbr": "St",
     "chapters": 5,
     "verses": 108,
     "mss": 1,
@@ -795,7 +795,7 @@
   {
     "number": 62,
     "name": "1 John",
-    "abbr": "1 Jo",
+    "abbr": "1 Ju",
     "chapters": 5,
     "verses": 105,
     "mss": 1,
@@ -808,7 +808,7 @@
   {
     "number": 63,
     "name": "2 John",
-    "abbr": "2 Jo",
+    "abbr": "2 Ju",
     "chapters": 1,
     "verses": 13,
     "mss": 1,
@@ -821,7 +821,7 @@
   {
     "number": 64,
     "name": "3 John",
-    "abbr": "3 Jo",
+    "abbr": "3 Ju",
     "chapters": 1,
     "verses": 14,
     "mss": 1,
@@ -834,7 +834,7 @@
   {
     "number": 65,
     "name": "Jude",
-    "abbr": "Jude",
+    "abbr": "Ju",
     "chapters": 1,
     "verses": 25,
     "mss": 1,
@@ -847,7 +847,7 @@
   {
     "number": 66,
     "name": "Revelation",
-    "abbr": "Reve",
+    "abbr": "Ap",
     "chapters": 22,
     "verses": 404,
     "mss": 1,
